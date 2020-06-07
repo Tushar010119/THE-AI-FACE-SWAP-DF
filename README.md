@@ -1,14 +1,6 @@
-![](docs/mona.gif)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alievk/avatarify/blob/master/avatarify.ipynb)
 
-[<img src="https://img.shields.io/badge/slack-join-brightgreen?style=flat&logo=slack">](https://join.slack.com/t/avatarify/shared_invite/zt-dyoqy8tc-~4U2ObQ6WoxuwSaWKKVOgg)
-
-:arrow_forward: [Demo](https://youtu.be/Q7LFDT-FRzs)
-
-:arrow_forward: [AI-generated Elon Musk](https://youtu.be/lONuXGNqLO0)
-
-# Avatarify
+# THE-AI-FACE-SWAP-DF
 
 Photorealistic avatars for video-conferencing [apps](#configure-video-meeting-app). Democratized.
 
@@ -16,13 +8,7 @@ Based on [First Order Motion Model](https://github.com/AliaksandrSiarohin/first-
 
 Created by: GitHub community.
 
-## News
-- **22 May 2020.** Added [Google Colab](https://colab.research.google.com/github/alievk/avatarify/blob/master/avatarify.ipynb) mode. Now you can running Avatarify on any computer without GPU!
-- **7 May 2020.** Added remote GPU support for all platforms (based on [mynameisfiber's](https://github.com/mynameisfiber) solution). [Demo](https://youtu.be/3Dz_bUIPYFM). Deployment [instructions](https://github.com/alievk/avatarify/wiki/Remote-GPU). 
-- **24 April 2020.** Added Windows installation [tutorial](https://www.youtube.com/watch?v=lym9ANVb120).
-- **17 April 2020.** Created Slack community. Please join via [invitation link](https://join.slack.com/t/avatarify/shared_invite/zt-dyoqy8tc-~4U2ObQ6WoxuwSaWKKVOgg).
-- **15 April 2020.** Added [StyleGAN-generated](https://www.thispersondoesnotexist.com) avatars. Just press `Q` and now you drive a person that never existed. Every time you push the button – new avatar is sampled.
-- **13 April 2020.** Added Windows support (kudos to [9of9](https://github.com/9of9)).
+
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -51,15 +37,15 @@ Created by: GitHub community.
 
 ## Requirements
 
-You can run Avatarify in two modes: *locally* and *remotely*.
+You can run THE-AI-FACE-SWAP-DF in two modes: *locally* and *remotely*.
 
-To run Avatarify *locally* you need a CUDA-enabled (NVIDIA) video card. Otherwise it will fallback to the central processor and run very slowly. These are performance metrics for some hardware:
+To run THE-AI-FACE-SWAP-DF *locally* you need a CUDA-enabled (NVIDIA) video card. Otherwise it will fallback to the central processor and run very slowly. These are performance metrics for some hardware:
 
 - GeForce GTX 1080 Ti: **33 frames per second**
 - GeForce GTX 1070: **15 frames per second**
 - GeForce GTX 950: **9 frames per second**
 
-You can also run Avatarify *remotely* on [Google Colab](https://colab.research.google.com/github/alievk/avatarify/blob/master/avatarify.ipynb) (easy) or on a [dedicated server](https://github.com/alievk/avatarify/wiki/Remote-GPU) with a GPU (harder). There are no special PC requirements for this mode, only a stable internet connection.
+You can also runTHE-AI-FACE-SWAP-DF *remotely* on [Google Colab](https://colab.research.google.com/github/alievk/avatarify/blob/master/avatarify.ipynb) (easy) or on a [dedicated server](https://github.com/alievk/avatarify/wiki/Remote-GPU) with a GPU (harder). There are no special PC requirements for this mode, only a stable internet connection.
 
 Of course, you also need a webcam!
 
@@ -139,8 +125,8 @@ The steps 10-11 are required only once during setup.
 
 You can offload the heavy work to [Google Colab](https://colab.research.google.com/github/alievk/avatarify/blob/master/avatarify.ipynb) or a [server with a GPU](https://github.com/alievk/avatarify/wiki/Remote-GPU) and use your laptop just to communicate the video stream.
 
-## Setup avatars
-Avatarify comes with a standard set of avatars of famous people, but you can extend this set simply copying your avatars into `avatars` folder.
+## Setup FACE
+THE-AI-FACE-SWAP-DF comes with a standard set of avatars of famous people, but you can extend this set simply copying your avatars into `avatars` folder.
 
 Follow these advices for better visual quality:
 * Make square crop of your avatar picture.
@@ -163,7 +149,7 @@ Run:
 bash run.sh
 ```
 
-`cam` and `avatarify` windows will pop-up. The `cam` window is for controlling your face position and `avatarify` is for the avatar animation preview. Please follow these [recommendations](#driving-your-avatar) to drive your avatars.
+`cam` and `THE-AI-FACE-SWAP-DF` windows will pop-up. The `cam` window is for controlling your face position and `avatarify` is for the avatar animation preview. Please follow these [recommendations](#driving-your-avatar) to drive your avatars.
 
 #### Mac
 *Note*: On Mac Avatarify runs only with [Google Colab](https://colab.research.google.com/github/alievk/avatarify/blob/master/avatarify.ipynb) or a [dedicated server](https://github.com/alievk/avatarify/wiki/Remote-GPU) with GPU.
@@ -220,7 +206,7 @@ L | Reload avatars.
 I | Show FPS
 ESC | Quit
 
-## Driving your avatar
+## Driving your FACE
 
 These are the main principles for driving your avatar:
 
